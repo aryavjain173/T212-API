@@ -114,9 +114,9 @@ If T212 genuinely doesn't offer it, drop it from the universe instead.
       multiple testing
 - [x] **4b. Risk-managed momentum** — inverse-vol weighting and Barroso &
       Santa-Clara volatility targeting, with a strict causality test suite
-- [ ] **5. Risk layer** — max position size, max daily turnover, stale-data
+- [x] **5. Risk layer** — max position size, max daily turnover, stale-data
       halt, kill switch
-- [ ] **6. Rebalance loop** — scheduled run: compute targets, diff against the
+- [x] **6. Rebalance loop** — scheduled run: compute targets, diff against the
       live portfolio, emit the minimal order set, log every decision
 - [ ] **7. Reconciliation** — pull fill history, compare realised execution
       against the backtest's assumed fills, quantify the slippage gap

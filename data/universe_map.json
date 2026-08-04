@@ -1,0 +1,422 @@
+{
+  "AAPL": {
+    "t212_ticker": "AAPL_US_EQ",
+    "name": "Apple",
+    "currency": "USD",
+    "sector": "Technology",
+    "match": "exact"
+  },
+  "ABBV": {
+    "t212_ticker": "ABBV_US_EQ",
+    "name": "AbbVie",
+    "currency": "USD",
+    "sector": "Healthcare",
+    "match": "exact"
+  },
+  "ABT": {
+    "t212_ticker": "ABT_US_EQ",
+    "name": "Abbott Laboratories",
+    "currency": "USD",
+    "sector": "Healthcare",
+    "match": "exact"
+  },
+  "ACN": {
+    "t212_ticker": "ACN_US_EQ",
+    "name": "Accenture",
+    "currency": "USD",
+    "sector": "Technology",
+    "match": "exact"
+  },
+  "ADBE": {
+    "t212_ticker": "ADBE_US_EQ",
+    "name": "Adobe",
+    "currency": "USD",
+    "sector": "Technology",
+    "match": "exact"
+  },
+  "AMD": {
+    "t212_ticker": "AMD_US_EQ",
+    "name": "Advanced Micro Devices",
+    "currency": "USD",
+    "sector": "Technology",
+    "match": "exact"
+  },
+  "AMGN": {
+    "t212_ticker": "AMGN_US_EQ",
+    "name": "Amgen",
+    "currency": "USD",
+    "sector": "Healthcare",
+    "match": "exact"
+  },
+  "AMZN": {
+    "t212_ticker": "AMZN_US_EQ",
+    "name": "Amazon",
+    "currency": "USD",
+    "sector": "Cons Disc",
+    "match": "exact"
+  },
+  "AVGO": {
+    "t212_ticker": "AVGO_US_EQ",
+    "name": "Broadcom",
+    "currency": "USD",
+    "sector": "Technology",
+    "match": "exact"
+  },
+  "AXP": {
+    "t212_ticker": "AXP_US_EQ",
+    "name": "American Express",
+    "currency": "USD",
+    "sector": "Financials",
+    "match": "exact"
+  },
+  "BAC": {
+    "t212_ticker": "BAC_US_EQ",
+    "name": "Bank of America",
+    "currency": "USD",
+    "sector": "Financials",
+    "match": "exact"
+  },
+  "BKNG": {
+    "t212_ticker": "PCLN_US_EQ",
+    "name": "Booking",
+    "currency": "USD",
+    "sector": "Cons Disc",
+    "match": "exact"
+  },
+  "BRK-B": {
+    "t212_ticker": "BRK_B_US_EQ",
+    "name": "Berkshire Hathaway (Class B)",
+    "currency": "USD",
+    "sector": "Financials",
+    "match": "exact"
+  },
+  "CAT": {
+    "t212_ticker": "CAT_US_EQ",
+    "name": "Caterpillar",
+    "currency": "USD",
+    "sector": "Industrials",
+    "match": "exact"
+  },
+  "CMCSA": {
+    "t212_ticker": "CMCSA_US_EQ",
+    "name": "Comcast",
+    "currency": "USD",
+    "sector": "Communication",
+    "match": "exact"
+  },
+  "COST": {
+    "t212_ticker": "COST_US_EQ",
+    "name": "Costco Wholesale",
+    "currency": "USD",
+    "sector": "Cons Staples",
+    "match": "exact"
+  },
+  "CRM": {
+    "t212_ticker": "CRM_US_EQ",
+    "name": "Salesforce",
+    "currency": "USD",
+    "sector": "Technology",
+    "match": "exact"
+  },
+  "CSCO": {
+    "t212_ticker": "CSCO_US_EQ",
+    "name": "Cisco Systems",
+    "currency": "USD",
+    "sector": "Technology",
+    "match": "exact"
+  },
+  "CVX": {
+    "t212_ticker": "CVX_US_EQ",
+    "name": "Chevron",
+    "currency": "USD",
+    "sector": "Energy",
+    "match": "exact"
+  },
+  "DIS": {
+    "t212_ticker": "DIS_US_EQ",
+    "name": "Walt Disney",
+    "currency": "USD",
+    "sector": "Communication",
+    "match": "exact"
+  },
+  "GE": {
+    "t212_ticker": "GE_US_EQ",
+    "name": "General Electric",
+    "currency": "USD",
+    "sector": "Industrials",
+    "match": "exact"
+  },
+  "GOOGL": {
+    "t212_ticker": "GOOGL_US_EQ",
+    "name": "Alphabet (Class A)",
+    "currency": "USD",
+    "sector": "Communication",
+    "match": "exact"
+  },
+  "GS": {
+    "t212_ticker": "GS_US_EQ",
+    "name": "Goldman Sachs",
+    "currency": "USD",
+    "sector": "Financials",
+    "match": "exact"
+  },
+  "HD": {
+    "t212_ticker": "HD_US_EQ",
+    "name": "Home Depot",
+    "currency": "USD",
+    "sector": "Cons Disc",
+    "match": "exact"
+  },
+  "HON": {
+    "t212_ticker": "HON_US_EQ",
+    "name": "Honeywell International",
+    "currency": "USD",
+    "sector": "Industrials",
+    "match": "exact"
+  },
+  "INTU": {
+    "t212_ticker": "INTU_US_EQ",
+    "name": "Intuit",
+    "currency": "USD",
+    "sector": "Technology",
+    "match": "exact"
+  },
+  "JNJ": {
+    "t212_ticker": "JNJ_US_EQ",
+    "name": "Johnson & Johnson",
+    "currency": "USD",
+    "sector": "Healthcare",
+    "match": "exact"
+  },
+  "JPM": {
+    "t212_ticker": "JPM_US_EQ",
+    "name": "JPMorgan Chase & Co",
+    "currency": "USD",
+    "sector": "Financials",
+    "match": "exact"
+  },
+  "KO": {
+    "t212_ticker": "KO_US_EQ",
+    "name": "Coca-Cola",
+    "currency": "USD",
+    "sector": "Cons Staples",
+    "match": "exact"
+  },
+  "LLY": {
+    "t212_ticker": "LLY_US_EQ",
+    "name": "Eli Lilly & Co",
+    "currency": "USD",
+    "sector": "Healthcare",
+    "match": "exact"
+  },
+  "LOW": {
+    "t212_ticker": "LOW_US_EQ",
+    "name": "Lowe's",
+    "currency": "USD",
+    "sector": "Cons Disc",
+    "match": "exact"
+  },
+  "MA": {
+    "t212_ticker": "MA_US_EQ",
+    "name": "Mastercard",
+    "currency": "USD",
+    "sector": "Financials",
+    "match": "exact"
+  },
+  "MCD": {
+    "t212_ticker": "MCD_US_EQ",
+    "name": "McDonald's",
+    "currency": "USD",
+    "sector": "Cons Disc",
+    "match": "exact"
+  },
+  "MDLZ": {
+    "t212_ticker": "MDLZ_US_EQ",
+    "name": "Mondelez International",
+    "currency": "USD",
+    "sector": "Cons Staples",
+    "match": "exact"
+  },
+  "META": {
+    "t212_ticker": "FB_US_EQ",
+    "name": "Meta Platforms",
+    "currency": "USD",
+    "sector": "Communication",
+    "match": "exact"
+  },
+  "MRK": {
+    "t212_ticker": "MRK_US_EQ",
+    "name": "Merck & Co",
+    "currency": "USD",
+    "sector": "Healthcare",
+    "match": "exact"
+  },
+  "MS": {
+    "t212_ticker": "MS_US_EQ",
+    "name": "Morgan Stanley",
+    "currency": "USD",
+    "sector": "Financials",
+    "match": "exact"
+  },
+  "MSFT": {
+    "t212_ticker": "MSFT_US_EQ",
+    "name": "Microsoft",
+    "currency": "USD",
+    "sector": "Technology",
+    "match": "exact"
+  },
+  "NEE": {
+    "t212_ticker": "NEE_US_EQ",
+    "name": "NextEra Energy",
+    "currency": "USD",
+    "sector": "Utilities",
+    "match": "exact"
+  },
+  "NFLX": {
+    "t212_ticker": "NFLX_US_EQ",
+    "name": "Netflix",
+    "currency": "USD",
+    "sector": "Communication",
+    "match": "exact"
+  },
+  "NKE": {
+    "t212_ticker": "NKE_US_EQ",
+    "name": "Nike",
+    "currency": "USD",
+    "sector": "Cons Disc",
+    "match": "exact"
+  },
+  "NVDA": {
+    "t212_ticker": "NVDA_US_EQ",
+    "name": "Nvidia",
+    "currency": "USD",
+    "sector": "Technology",
+    "match": "exact"
+  },
+  "ORCL": {
+    "t212_ticker": "ORCL_US_EQ",
+    "name": "Oracle",
+    "currency": "USD",
+    "sector": "Technology",
+    "match": "exact"
+  },
+  "PEP": {
+    "t212_ticker": "PEP_US_EQ",
+    "name": "PepsiCo",
+    "currency": "USD",
+    "sector": "Cons Staples",
+    "match": "exact"
+  },
+  "PFE": {
+    "t212_ticker": "PFE_US_EQ",
+    "name": "Pfizer",
+    "currency": "USD",
+    "sector": "Healthcare",
+    "match": "exact"
+  },
+  "PG": {
+    "t212_ticker": "PG_US_EQ",
+    "name": "Procter & Gamble",
+    "currency": "USD",
+    "sector": "Cons Staples",
+    "match": "exact"
+  },
+  "PM": {
+    "t212_ticker": "PM_US_EQ",
+    "name": "Philip Morris International",
+    "currency": "USD",
+    "sector": "Cons Staples",
+    "match": "exact"
+  },
+  "QCOM": {
+    "t212_ticker": "QCOM_US_EQ",
+    "name": "Qualcomm",
+    "currency": "USD",
+    "sector": "Technology",
+    "match": "exact"
+  },
+  "RTX": {
+    "t212_ticker": "UTX_US_EQ",
+    "name": "RTX",
+    "currency": "USD",
+    "sector": "Industrials",
+    "match": "exact"
+  },
+  "SBUX": {
+    "t212_ticker": "SBUX_US_EQ",
+    "name": "Starbucks",
+    "currency": "USD",
+    "sector": "Cons Disc",
+    "match": "exact"
+  },
+  "T": {
+    "t212_ticker": "T_US_EQ",
+    "name": "AT&T",
+    "currency": "USD",
+    "sector": "Communication",
+    "match": "exact"
+  },
+  "TMO": {
+    "t212_ticker": "TMO_US_EQ",
+    "name": "Thermo Fisher Scientific",
+    "currency": "USD",
+    "sector": "Healthcare",
+    "match": "exact"
+  },
+  "TSLA": {
+    "t212_ticker": "TSLA_US_EQ",
+    "name": "Tesla",
+    "currency": "USD",
+    "sector": "Cons Disc",
+    "match": "exact"
+  },
+  "UNH": {
+    "t212_ticker": "UNH_US_EQ",
+    "name": "UnitedHealth",
+    "currency": "USD",
+    "sector": "Healthcare",
+    "match": "exact"
+  },
+  "UNP": {
+    "t212_ticker": "UNP_US_EQ",
+    "name": "Union Pacific",
+    "currency": "USD",
+    "sector": "Industrials",
+    "match": "exact"
+  },
+  "V": {
+    "t212_ticker": "V_US_EQ",
+    "name": "Visa",
+    "currency": "USD",
+    "sector": "Financials",
+    "match": "exact"
+  },
+  "VZ": {
+    "t212_ticker": "VZ_US_EQ",
+    "name": "Verizon Communications",
+    "currency": "USD",
+    "sector": "Communication",
+    "match": "exact"
+  },
+  "WFC": {
+    "t212_ticker": "WFC_US_EQ",
+    "name": "Wells Fargo",
+    "currency": "USD",
+    "sector": "Financials",
+    "match": "exact"
+  },
+  "WMT": {
+    "t212_ticker": "WMT_US_EQ",
+    "name": "Walmart",
+    "currency": "USD",
+    "sector": "Cons Staples",
+    "match": "exact"
+  },
+  "XOM": {
+    "t212_ticker": "XOM_US_EQ",
+    "name": "ExxonMobil",
+    "currency": "USD",
+    "sector": "Energy",
+    "match": "exact"
+  }
+}

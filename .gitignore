@@ -6,5 +6,4 @@ venv/
 data/cache/
 logs/*.log
 logs/*.jsonl
-data/risk_state.json
 .DS_Store

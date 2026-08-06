@@ -1,0 +1,44 @@
+name: T212 Rebalance
+on:
+  schedule:
+    # 19:30-19:55 UTC = 15:30-15:55 ET while both UK/US are on their
+    # respective DST offsets (holds now, breaks briefly at the Mar/Nov
+    # DST boundaries — see PROJECT_STATUS.md for the recurring fix).
+    - cron: '30,35,40,45,50,55 19 * * 1-5'
+  workflow_dispatch:
+jobs:
+  rebalance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check kill switch
+        run: |
+          if [ -f HALT ]; then
+            echo "Kill switch present. Halting before any work begins."
+            exit 1
+          fi
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run rebalance
+        env:
+          T212_API_KEY: ${{ secrets.T212_API_KEY }}
+          T212_API_SECRET: ${{ secrets.T212_API_SECRET }}
+          T212_ENVIRONMENT: ${{ secrets.T212_ENVIRONMENT }}
+          T212_ALLOW_LIVE: ${{ secrets.T212_ALLOW_LIVE }}
+        run: python -m scripts.rebalance --execute
+
+      - name: Commit updated state
+        if: always()
+        run: |
+          git config user.name "t212-rebalance-bot"
+          git config user.email "actions@github.com"
+          git add data/risk_state.json logs/ || true
+          git diff --staged --quiet || git commit -m "state update $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push

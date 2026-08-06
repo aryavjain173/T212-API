@@ -40,5 +40,7 @@ jobs:
           git config user.name "t212-rebalance-bot"
           git config user.email "actions@github.com"
           git add data/risk_state.json logs/ || true
-          git diff --staged --quiet || git commit -m "state update $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git diff --staged --quiet && exit 0
+          git commit -m "state update $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git pull --rebase origin main
           git push
